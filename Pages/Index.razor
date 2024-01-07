@@ -1,0 +1,23 @@
+﻿@page "/"
+<div class="h-40 items-center d-flex">
+    <MudPaper Outlined="true">
+        <div >
+            <div class="pa-10">
+                <MudImage Src="images/tempIcon.jpg" class="mud-theme-primary rounded-circle col-span-1" Width="95"
+                    Height="95" />
+                <div style="text-align: left; margin-left: 8px;">
+                    <MudText>
+                        <b>Username</b>
+                    </MudText>
+                </div>
+            </div>
+        </div>
+        <div style="width: 800px; margin: 0 auto;-">
+            <MudProgressLinear Color="Color.Info" Size="Size.Large" Value="95">
+                <MudText Typo="Typo.subtitle1" Color="Color.Dark">
+                    <b>95%</b>
+                </MudText>
+            </MudProgressLinear>
+        </div>
+    </MudPaper>
+</div>
