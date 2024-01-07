@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/home/astorec/Documents/Projects/2024-Hons-Project/MudBlazorTesting.csproj": {}
+    "/home/astorec/Documents/Projects/2024-Hons-Project/HonsProject.csproj": {}
   },
   "projects": {
-    "/home/astorec/Documents/Projects/2024-Hons-Project/MudBlazorTesting.csproj": {
+    "/home/astorec/Documents/Projects/2024-Hons-Project/HonsProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/astorec/Documents/Projects/2024-Hons-Project/MudBlazorTesting.csproj",
-        "projectName": "MudBlazorTesting",
-        "projectPath": "/home/astorec/Documents/Projects/2024-Hons-Project/MudBlazorTesting.csproj",
+        "projectUniqueName": "/home/astorec/Documents/Projects/2024-Hons-Project/HonsProject.csproj",
+        "projectName": "HonsProject",
+        "projectPath": "/home/astorec/Documents/Projects/2024-Hons-Project/HonsProject.csproj",
         "packagesPath": "/home/astorec/.nuget/packages/",
         "outputPath": "/home/astorec/Documents/Projects/2024-Hons-Project/obj/",
         "projectStyle": "PackageReference",

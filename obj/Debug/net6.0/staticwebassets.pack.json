@@ -1,44 +1,44 @@
 {
   "Files": [
     {
-      "Id": "/home/astorec/Documents/Projects/MudBlazorTesting/bin/Debug/net6.0/wwwroot/_framework/blazor.webassembly.js",
+      "Id": "/home/astorec/Documents/Projects/2024-Hons-Project/bin/Debug/net6.0/wwwroot/_framework/blazor.webassembly.js",
       "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
     },
     {
-      "Id": "/home/astorec/Documents/Projects/MudBlazorTesting/obj/Debug/net6.0/compressed/9fc89uqpq6.gz",
+      "Id": "/home/astorec/Documents/Projects/2024-Hons-Project/obj/Debug/net6.0/compressed/9fc89uqpq6.gz",
       "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
     },
     {
-      "Id": "/home/astorec/Documents/Projects/MudBlazorTesting/wwwroot/favicon.ico",
+      "Id": "/home/astorec/Documents/Projects/2024-Hons-Project/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/home/astorec/Documents/Projects/MudBlazorTesting/wwwroot/images/tempIcon.jpg",
+      "Id": "/home/astorec/Documents/Projects/2024-Hons-Project/wwwroot/images/tempIcon.jpg",
       "PackagePath": "staticwebassets/images/tempIcon.jpg"
     },
     {
-      "Id": "/home/astorec/Documents/Projects/MudBlazorTesting/wwwroot/index.html",
+      "Id": "/home/astorec/Documents/Projects/2024-Hons-Project/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
     },
     {
-      "Id": "/home/astorec/Documents/Projects/MudBlazorTesting/wwwroot/sample-data/weather.json",
+      "Id": "/home/astorec/Documents/Projects/2024-Hons-Project/wwwroot/sample-data/weather.json",
       "PackagePath": "staticwebassets/sample-data/weather.json"
     },
     {
-      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.MudBlazorTesting.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.HonsProject.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.MudBlazorTesting.props",
-      "PackagePath": "build\\MudBlazorTesting.props"
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.HonsProject.props",
+      "PackagePath": "build\\HonsProject.props"
     },
     {
-      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.MudBlazorTesting.props",
-      "PackagePath": "buildMultiTargeting\\MudBlazorTesting.props"
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.HonsProject.props",
+      "PackagePath": "buildMultiTargeting\\HonsProject.props"
     },
     {
-      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.MudBlazorTesting.props",
-      "PackagePath": "buildTransitive\\MudBlazorTesting.props"
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.HonsProject.props",
+      "PackagePath": "buildTransitive\\HonsProject.props"
     }
   ],
   "ElementsToRemove": []

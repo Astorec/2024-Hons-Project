@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4LqykcV7iydAcB6ZeXi0Dj1YWmnYemeILRnJY3xkC8hbp/++gqZMKK057unAUYLzXdukr+0c1XkUksd5fKhERQ==",
+  "dgSpecHash": "1dJIwN7q5sNhwzRSBHBCaNVO+Sym9n/OVAkSrG6Y6baegQiJQzLBUmiNQbzzP9fvNUVeAR3BwHxV6UqIUg4MCg==",
   "success": true,
-  "projectFilePath": "/home/astorec/Documents/Projects/MudBlazorTesting/MudBlazorTesting.csproj",
+  "projectFilePath": "/home/astorec/Documents/Projects/2024-Hons-Project/HonsProject.csproj",
   "expectedPackageFiles": [
     "/home/astorec/.nuget/packages/microsoft.aspnetcore.authorization/6.0.7/microsoft.aspnetcore.authorization.6.0.7.nupkg.sha512",
     "/home/astorec/.nuget/packages/microsoft.aspnetcore.components/6.0.7/microsoft.aspnetcore.components.6.0.7.nupkg.sha512",
