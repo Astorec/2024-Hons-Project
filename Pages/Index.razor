@@ -1,7 +1,8 @@
 ﻿@page "/"
-<div class="h-40 items-center d-flex">
-    <MudPaper Outlined="true">
-        <div >
+
+<div class="d-flex flex-initial justify-center" Elevation="0" MaxWidth="575px">
+    <MudPaper Outlined="true" id="profile-info" class="h-40 items-center d-flex align-content-center" Width="575px">
+        <div>
             <div class="pa-10">
                 <MudImage Src="images/tempIcon.jpg" class="mud-theme-primary rounded-circle col-span-1" Width="95"
                     Height="95" />
@@ -12,7 +13,16 @@
                 </div>
             </div>
         </div>
-        <div style="width: 800px; margin: 0 auto;-">
+        <div class="mx-auto mt-16 pr-4 pt-6" style="width: 800px; margin: 0 auto;">
+            <div class="d-flex justify-content-between">
+                <MudText class="align-content-start flex-grow-1" Typo="Typo.subtitle1" Color="Color.Dark">
+                    <b>Level - 10</b>
+                </MudText>
+                <MudText class="align-content-end pl-16" Typo="Typo.subtitle1" Color="Color.Dark">
+                    <b>400/500 XP</b>
+                </MudText>
+            </div>
+
             <MudProgressLinear Color="Color.Info" Size="Size.Large" Value="95">
                 <MudText Typo="Typo.subtitle1" Color="Color.Dark">
                     <b>95%</b>
@@ -20,4 +30,84 @@
             </MudProgressLinear>
         </div>
     </MudPaper>
+</div>
+<div Class="gap-x-8 gap-y-4 d-flex flex-row justify-center pa-3" Elevation="0" MaxWidth="270">
+    <MudPaper Class="d-flex justify-content-between" Height="430px" Width="270px">
+        <div>
+            <div class="d-flex justify-center" Elevation="0">
+                <MudText>
+                    <b>Today's Tasks</b>
+                </MudText>
+            </div>
+            <div>
+                <MudGrid>
+                    <MudItem xs="5" class="justify-start ml-4 mt-5">
+                        <MudText>
+                            <b>Task 01</b>
+                        </MudText>
+                    </MudItem>
+                    <MudItem xs="3" class="justify-start ml-n6 mt-4">
+                        <MudButton Variant="Variant.Filled" Size="Size.Small"
+                            Style="@($"background:{Colors.Green.Lighten1};")">
+                            Confirm</MudButton>
+                    </MudItem>
+                    <MudItem xs="3" class="justify-end ml-4 mt-4">
+                        <MudButton Variant="Variant.Filled" Style="@($"background:{Colors.Red.Lighten1};")"
+                            Size="Size.Small">
+                            Skip</MudButton>
+                    </MudItem>
+                </MudGrid>
+            </div>
+        </div>
+    </MudPaper>
+    <MudPaper Class="d-flex justify-content-between" Height="430px" Width="270px">
+        <div>
+            <div class="d-flex justify-center" Elevation="0">
+                <MudText>
+                    <b>Upcoming Tasks</b>
+                </MudText>
+            </div>
+            <div id="task-01">
+                <MudGrid>
+                    <MudItem xs="5" class="justify-start ml-4 mt-5">
+                        <MudText>
+                            <b>Task 01</b>
+                        </MudText>
+                    </MudItem>
+                    <MudItem xs="3" class="justify-start ml-n6 mt-4">
+                        <MudButton Variant="Variant.Filled" Size="Size.Small"
+                            Style="@($"background:{Colors.Green.Lighten1};")">
+                            Confirm</MudButton>
+                    </MudItem>
+                    <MudItem xs="3" class="justify-end ml-4 mt-4">
+                        <MudButton Variant="Variant.Filled" Style="@($"background:{Colors.Red.Lighten1};")"
+                            Size="Size.Small">
+                            Skip</MudButton>
+                    </MudItem>
+                </MudGrid>
+            </div>
+             <div id="task-02">
+                <MudGrid>
+                    <MudItem xs="5" class="justify-start ml-4 mt-5">
+                        <MudText>
+                            <b>Task 02</b>
+                        </MudText>
+                    </MudItem>
+                    <MudItem xs="3" class="justify-start ml-n6 mt-4">
+                        <MudButton Variant="Variant.Filled" Size="Size.Small"
+                            Style="@($"background:{Colors.Green.Lighten1};")">
+                            Confirm</MudButton>
+                    </MudItem>
+                    <MudItem xs="3" class="justify-end ml-4 mt-4">
+                        <MudButton Variant="Variant.Filled" Style="@($"background:{Colors.Red.Lighten1};")"
+                            Size="Size.Small">
+                            Skip</MudButton>
+                    </MudItem>
+                </MudGrid>
+            </div>
+        </div>
+    </MudPaper>
+</div>
+<div Class="gap-x-8 gap-y-4 d-flex justify-center pa-3" Elevation="0" MaxWidth="575px">
+    <MudPaper Class="d-inline-flex" Height="190px" Width="575px"></MudPaper>
 </div>
