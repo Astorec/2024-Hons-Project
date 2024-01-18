@@ -1,113 +1,189 @@
 ﻿@page "/"
+<MudMainContent>
+    <div class="d-flex align-start justify-center" Width="575px">
+        <MudGrid Spacing="2">
+            <MudItem xs="12" xl="30">
+                <MudPaper Elevation="1">
+                    <MudCard>
+                        <MudCardContent class="d-flex flex-grow-1">
+                            <MudGrid class="flex-grow-1">
+                                <MudItem xs="12" xl="20"
+                                    class="d-flex flex-column flex-grow-1 align-center justify-center">
+                                    <div class="d-flex">
+                                        <MudImage Src="images/tempIcon.jpg"
+                                            class="mud-theme-primary rounded-circle col-span-1" Width="95"
+                                            Height="95" />
+                                    </div>
+                                    <div class="d-flex">
+                                        <MudText Align="Align.Center" Color="Color.Primary">
+                                            <b>Asto</b>
+                                        </MudText>
+                                    </div>
 
-<div class="d-flex flex-initial justify-center" Elevation="0" MaxWidth="575px">
-    <MudPaper Outlined="true" id="profile-info" class="h-40 items-center d-flex align-content-center" Width="575px">
-        <div>
-            <div class="pa-10">
-                <MudImage Src="images/tempIcon.jpg" class="mud-theme-primary rounded-circle col-span-1" Width="95"
-                    Height="95" />
-                <div style="text-align: left; margin-left: 8px;">
-                    <MudText>
-                        <b>Username</b>
-                    </MudText>
-                </div>
-            </div>
-        </div>
-        <div class="mx-auto mt-16 pr-4 pt-6" style="width: 800px; margin: 0 auto;">
-            <div class="d-flex justify-content-between">
-                <MudText class="align-content-start flex-grow-1" Typo="Typo.subtitle1" Color="Color.Dark">
-                    <b>Level - 10</b>
-                </MudText>
-                <MudText class="align-content-end pl-16" Typo="Typo.subtitle1" Color="Color.Dark">
-                    <b>400/500 XP</b>
-                </MudText>
-            </div>
+                                </MudItem>
+                                <MudItem xs="12" xl="5">
+                                    <div class="d-flex justify-content-between">
+                                        <MudText class="align-content-start flex-grow-1" Typo="Typo.subtitle1"
+                                            Color="Color.Primary">
+                                            <b>Level - 10</b>
+                                        </MudText>
+                                        <MudText class="align-content-end pl-16" Typo="Typo.subtitle1"
+                                            Color="Color.Primary">
+                                            <b>400/500 XP</b>
+                                        </MudText>
+                                    </div>
+                                    <div>
+                                        <MudProgressLinear Color="Color.Info" Size="Size.Large" Value="95">
+                                            <MudText Typo="Typo.subtitle1" Color="Color.Primary">
+                                                <b>95%</b>
+                                            </MudText>
+                                        </MudProgressLinear>
+                                    </div>
+                                </MudItem>
+                            </MudGrid>
+                        </MudCardContent>
+                    </MudCard>
+                </MudPaper>
 
-            <MudProgressLinear Color="Color.Info" Size="Size.Large" Value="95">
-                <MudText Typo="Typo.subtitle1" Color="Color.Dark">
-                    <b>95%</b>
-                </MudText>
-            </MudProgressLinear>
-        </div>
-    </MudPaper>
-</div>
-<div Class="gap-x-8 gap-y-4 d-flex flex-row justify-center pa-3" Elevation="0" MaxWidth="270">
-    <MudPaper Class="d-flex justify-content-between" Height="430px" Width="270px">
-        <div>
-            <div class="d-flex justify-center" Elevation="0">
-                <MudText>
-                    <b>Today's Tasks</b>
-                </MudText>
-            </div>
-            <div>
-                <MudGrid>
-                    <MudItem xs="5" class="justify-start ml-4 mt-5">
-                        <MudText>
-                            <b>Task 01</b>
-                        </MudText>
-                    </MudItem>
-                    <MudItem xs="3" class="justify-start ml-n6 mt-4">
-                        <MudButton Variant="Variant.Filled" Size="Size.Small"
-                            Style="@($"background:{Colors.Green.Lighten1};")">
-                            Confirm</MudButton>
-                    </MudItem>
-                    <MudItem xs="3" class="justify-end ml-4 mt-4">
-                        <MudButton Variant="Variant.Filled" Style="@($"background:{Colors.Red.Lighten1};")"
-                            Size="Size.Small">
-                            Skip</MudButton>
-                    </MudItem>
-                </MudGrid>
-            </div>
-        </div>
-    </MudPaper>
-    <MudPaper Class="d-flex justify-content-between" Height="430px" Width="270px">
-        <div>
-            <div class="d-flex justify-center" Elevation="0">
-                <MudText>
-                    <b>Upcoming Tasks</b>
-                </MudText>
-            </div>
-            <div id="task-01">
-                <MudGrid>
-                    <MudItem xs="5" class="justify-start ml-4 mt-5">
-                        <MudText>
-                            <b>Task 01</b>
-                        </MudText>
-                    </MudItem>
-                    <MudItem xs="3" class="justify-start ml-n6 mt-4">
-                        <MudButton Variant="Variant.Filled" Size="Size.Small"
-                            Style="@($"background:{Colors.Green.Lighten1};")">
-                            Confirm</MudButton>
-                    </MudItem>
-                    <MudItem xs="3" class="justify-end ml-4 mt-4">
-                        <MudButton Variant="Variant.Filled" Style="@($"background:{Colors.Red.Lighten1};")"
-                            Size="Size.Small">
-                            Skip</MudButton>
-                    </MudItem>
-                </MudGrid>
-            </div>
-             <div id="task-02">
-                <MudGrid>
-                    <MudItem xs="5" class="justify-start ml-4 mt-5">
-                        <MudText>
-                            <b>Task 02</b>
-                        </MudText>
-                    </MudItem>
-                    <MudItem xs="3" class="justify-start ml-n6 mt-4">
-                        <MudButton Variant="Variant.Filled" Size="Size.Small"
-                            Style="@($"background:{Colors.Green.Lighten1};")">
-                            Confirm</MudButton>
-                    </MudItem>
-                    <MudItem xs="3" class="justify-end ml-4 mt-4">
-                        <MudButton Variant="Variant.Filled" Style="@($"background:{Colors.Red.Lighten1};")"
-                            Size="Size.Small">
-                            Skip</MudButton>
-                    </MudItem>
-                </MudGrid>
-            </div>
-        </div>
-    </MudPaper>
-</div>
-<div Class="gap-x-8 gap-y-4 d-flex justify-center pa-3" Elevation="0" MaxWidth="575px">
-    <MudPaper Class="d-inline-flex" Height="190px" Width="575px"></MudPaper>
-</div>
+            </MudItem>
+            <MudItem xs="6" xl="15">
+                <MudPaper Elevation="1" Height="430px">
+                    <MudCard Elevation="0">
+                        <MudCardContent class="d-flex flex-column flex-grow-1">
+                            <div class="d-flex justify-center">
+                                <MudText>
+                                    <b>Today's Tasks</b>
+                                </MudText>
+                            </div>
+                            <div class="d-flex d-sm-none flex-row gap-3 justify-space-between mt-3">
+                                <div class="d-flex align-center">
+                                    <MudText Typo="Typo.subtitle2">
+                                        <b>Task 01</b>
+                                    </MudText>
+                                </div>
+
+                                <div class="d-flex align-end">
+                                    <MudButtonGroup>
+                                        <MudButton Variant="Variant.Filled" Size="Size.Small"
+                                            Style="@($"background:{Colors.Green.Lighten1};")">
+                                            @_menuConfirmText</MudButton>
+                                        <MudMenu Icon="@Icons.Material.Filled.ArrowDropDown" Style="align-self: auto;">
+                                            <MudMenuItem OnClick="() => SetButtonText(0)">Confirm</MudMenuItem>
+                                            <MudMenuItem OnClick="() => SetButtonText(0)">Skip</MudMenuItem>
+                                        </MudMenu>
+                                    </MudButtonGroup>
+                                </div>
+
+                            </div>
+
+                            <div class="d-none d-sm-flex flex-row gap-3 justify-space-between mt-3">
+                                <div class="d-flex align-center">
+                                    <MudText Typo="Typo.body2">
+                                        <b>Task 01</b>
+                                    </MudText>
+                                </div>
+                                <div class="d-flex align-end">
+                                    <MudButtonGroup>
+                                        <MudButton Variant="Variant.Filled" Size="Size.Small"
+                                            Style="@($"background:{Colors.Green.Lighten1};")">
+                                            Confirm</MudButton>
+                                        <MudButton Variant="Variant.Filled"
+                                            Style="@($"background:{Colors.Red.Lighten1};")" Size="Size.Small">
+                                            Skip</MudButton>
+                                    </MudButtonGroup>
+
+                                </div>
+                            </div>
+
+                        </MudCardContent>
+                    </MudCard>
+
+                </MudPaper>
+            </MudItem>
+            <MudItem xs="6" xl="15">
+                <MudPaper Elevation="1" Height="430px">
+                    <MudCard Elevation="0">
+                        <MudCardContent class="d-flex flex-column flex-grow-1">
+                            <div class="d-flex justify-center">
+                                <MudText>
+                                    <b>Upcoming Tasks</b>
+                                </MudText>
+                            </div>
+                            <div class="d-flex d-sm-none flex-row gap-3 justify-space-between mt-3">
+                                <div class="d-flex align-center">
+                                    <MudText Typo="Typo.subtitle2">
+                                        <b>Task 01</b>
+                                    </MudText>
+                                </div>
+
+                                <div class="d-flex align-end">
+                                    <MudButtonGroup>
+                                        <MudButton Variant="Variant.Filled" Size="Size.Small"
+                                            Style="@($"background:{Colors.Green.Lighten1};")">
+                                            @_menuConfirmText</MudButton>
+                                        <MudMenu Icon="@Icons.Material.Filled.ArrowDropDown" Style="align-self: auto;">
+                                            <MudMenuItem OnClick="() => SetButtonText(0)">Confirm</MudMenuItem>
+                                            <MudMenuItem OnClick="() => SetButtonText(0)">Skip</MudMenuItem>
+                                        </MudMenu>
+                                    </MudButtonGroup>
+                                </div>
+
+                            </div>
+
+                            <div class="d-none d-sm-flex flex-row gap-3 justify-space-between mt-3">
+                                <div class="d-flex align-center">
+                                    <MudText Typo="Typo.body2">
+                                        <b>Task 01</b>
+                                    </MudText>
+                                </div>
+                                <div class="d-flex align-end">
+                                    <MudButtonGroup>
+                                        <MudButton Variant="Variant.Filled" Size="Size.Small"
+                                            Style="@($"background:{Colors.Green.Lighten1};")">
+                                            Confirm</MudButton>
+                                        <MudButton Variant="Variant.Filled"
+                                            Style="@($"background:{Colors.Red.Lighten1};")" Size="Size.Small">
+                                            Skip</MudButton>
+                                    </MudButtonGroup>
+
+                                </div>
+                            </div>
+                        </MudCardContent>
+                    </MudCard>
+
+                </MudPaper>
+            </MudItem>
+            <MudItem xs="12" xl="30">
+                <MudCard>
+                    <MudCardContent class="d-flex flex-grow-1">
+                        <div>
+
+                        </div>
+                    </MudCardContent>
+                </MudCard>
+
+            </MudItem>
+        </MudGrid>
+    </div>
+</MudMainContent>
+
+@code {
+    private string _menuConfirmText = "Confirm";
+
+    private void SetButtonText(int id)
+    {
+        switch (id)
+        {
+            case 0:
+                _menuConfirmText = "Confirm";
+                break;
+            case 1:
+                _menuConfirmText = "Skip";
+                break;
+        }
+    }
+
+    private void ConfirmTask(){
+        
+    }
+}

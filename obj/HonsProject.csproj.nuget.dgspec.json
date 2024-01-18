@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/astorec/Documents/Projects/2024-Hons-Project/HonsProject.csproj": {}
+    "/home/astorec/Documents/Repos/2024-Hons-Project/HonsProject.csproj": {}
   },
   "projects": {
-    "/home/astorec/Documents/Projects/2024-Hons-Project/HonsProject.csproj": {
+    "/home/astorec/Documents/Repos/2024-Hons-Project/HonsProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/astorec/Documents/Projects/2024-Hons-Project/HonsProject.csproj",
+        "projectUniqueName": "/home/astorec/Documents/Repos/2024-Hons-Project/HonsProject.csproj",
         "projectName": "HonsProject",
-        "projectPath": "/home/astorec/Documents/Projects/2024-Hons-Project/HonsProject.csproj",
+        "projectPath": "/home/astorec/Documents/Repos/2024-Hons-Project/HonsProject.csproj",
         "packagesPath": "/home/astorec/.nuget/packages/",
-        "outputPath": "/home/astorec/Documents/Projects/2024-Hons-Project/obj/",
+        "outputPath": "/home/astorec/Documents/Repos/2024-Hons-Project/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/astorec/.nuget/NuGet/NuGet.Config"
@@ -63,7 +63,7 @@
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )",
+              "version": "[8.0.1, )",
               "autoReferenced": true
             },
             "MudBlazor": {
@@ -85,15 +85,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
+              "version": "[6.0.26, 6.0.26]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
+              "version": "[6.0.26, 6.0.26]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.25, 6.0.25]"
+              "version": "[6.0.26, 6.0.26]"
             }
           ],
           "frameworkReferences": {
@@ -101,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

@@ -1,27 +1,27 @@
 {
   "Files": [
     {
-      "Id": "/home/astorec/Documents/Projects/2024-Hons-Project/bin/Debug/net6.0/wwwroot/_framework/blazor.webassembly.js",
+      "Id": "/home/astorec/Documents/Repos/2024-Hons-Project/bin/Debug/net6.0/wwwroot/_framework/blazor.webassembly.js",
       "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
     },
     {
-      "Id": "/home/astorec/Documents/Projects/2024-Hons-Project/obj/Debug/net6.0/compressed/9fc89uqpq6.gz",
+      "Id": "/home/astorec/Documents/Repos/2024-Hons-Project/obj/Debug/net6.0/compressed/9fc89uqpq6.gz",
       "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
     },
     {
-      "Id": "/home/astorec/Documents/Projects/2024-Hons-Project/wwwroot/favicon.ico",
+      "Id": "/home/astorec/Documents/Repos/2024-Hons-Project/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/home/astorec/Documents/Projects/2024-Hons-Project/wwwroot/images/tempIcon.jpg",
+      "Id": "/home/astorec/Documents/Repos/2024-Hons-Project/wwwroot/images/tempIcon.jpg",
       "PackagePath": "staticwebassets/images/tempIcon.jpg"
     },
     {
-      "Id": "/home/astorec/Documents/Projects/2024-Hons-Project/wwwroot/index.html",
+      "Id": "/home/astorec/Documents/Repos/2024-Hons-Project/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
     },
     {
-      "Id": "/home/astorec/Documents/Projects/2024-Hons-Project/wwwroot/sample-data/weather.json",
+      "Id": "/home/astorec/Documents/Repos/2024-Hons-Project/wwwroot/sample-data/weather.json",
       "PackagePath": "staticwebassets/sample-data/weather.json"
     },
     {

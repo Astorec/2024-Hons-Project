@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1dJIwN7q5sNhwzRSBHBCaNVO+Sym9n/OVAkSrG6Y6baegQiJQzLBUmiNQbzzP9fvNUVeAR3BwHxV6UqIUg4MCg==",
+  "dgSpecHash": "vyvoPT4UfzPSeFaK+7RmfurEJkDM7VU2uy92xjensWeUCtLQPtZKA3u8cgrN+4bl22csAqZzDgPBlHTMM8I/NA==",
   "success": true,
-  "projectFilePath": "/home/astorec/Documents/Projects/2024-Hons-Project/HonsProject.csproj",
+  "projectFilePath": "/home/astorec/Documents/Repos/2024-Hons-Project/HonsProject.csproj",
   "expectedPackageFiles": [
     "/home/astorec/.nuget/packages/microsoft.aspnetcore.authorization/6.0.7/microsoft.aspnetcore.authorization.6.0.7.nupkg.sha512",
     "/home/astorec/.nuget/packages/microsoft.aspnetcore.components/6.0.7/microsoft.aspnetcore.components.6.0.7.nupkg.sha512",
@@ -30,16 +30,16 @@
     "/home/astorec/.nuget/packages/microsoft.jsinterop.webassembly/6.0.7/microsoft.jsinterop.webassembly.6.0.7.nupkg.sha512",
     "/home/astorec/.nuget/packages/microsoft.net.illink.analyzers/7.0.100-1.23211.1/microsoft.net.illink.analyzers.7.0.100-1.23211.1.nupkg.sha512",
     "/home/astorec/.nuget/packages/microsoft.net.illink.tasks/7.0.100-1.23211.1/microsoft.net.illink.tasks.7.0.100-1.23211.1.nupkg.sha512",
-    "/home/astorec/.nuget/packages/microsoft.net.sdk.webassembly.pack/8.0.0/microsoft.net.sdk.webassembly.pack.8.0.0.nupkg.sha512",
+    "/home/astorec/.nuget/packages/microsoft.net.sdk.webassembly.pack/8.0.1/microsoft.net.sdk.webassembly.pack.8.0.1.nupkg.sha512",
     "/home/astorec/.nuget/packages/mudblazor/6.0.13/mudblazor.6.0.13.nupkg.sha512",
     "/home/astorec/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "/home/astorec/.nuget/packages/system.io.pipelines/6.0.3/system.io.pipelines.6.0.3.nupkg.sha512",
     "/home/astorec/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/home/astorec/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
     "/home/astorec/.nuget/packages/system.text.json/6.0.0/system.text.json.6.0.0.nupkg.sha512",
-    "/home/astorec/.nuget/packages/microsoft.netcore.app.ref/6.0.25/microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
-    "/home/astorec/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/6.0.25/microsoft.netcore.app.runtime.mono.browser-wasm.6.0.25.nupkg.sha512",
-    "/home/astorec/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.25/microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+    "/home/astorec/.nuget/packages/microsoft.netcore.app.ref/6.0.26/microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "/home/astorec/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/6.0.26/microsoft.netcore.app.runtime.mono.browser-wasm.6.0.26.nupkg.sha512",
+    "/home/astorec/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.26/microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512"
   ],
   "logs": []
 }

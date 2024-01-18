@@ -13,39 +13,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = HonsProject
 build_property.RootNamespace = HonsProject
-build_property.ProjectDir = /home/astorec/Documents/Projects/2024-Hons-Project/
+build_property.ProjectDir = /home/astorec/Documents/Repos/2024-Hons-Project/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/astorec/Documents/Projects/2024-Hons-Project
+build_property.MSBuildProjectDirectory = /home/astorec/Documents/Repos/2024-Hons-Project
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/astorec/Documents/Projects/2024-Hons-Project/App.razor]
+[/home/astorec/Documents/Repos/2024-Hons-Project/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/astorec/Documents/Projects/2024-Hons-Project/Pages/Counter.razor]
+[/home/astorec/Documents/Repos/2024-Hons-Project/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/astorec/Documents/Projects/2024-Hons-Project/Pages/FetchData.razor]
+[/home/astorec/Documents/Repos/2024-Hons-Project/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/astorec/Documents/Projects/2024-Hons-Project/Pages/Index.razor]
+[/home/astorec/Documents/Repos/2024-Hons-Project/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/astorec/Documents/Projects/2024-Hons-Project/Shared/MainLayout.razor]
+[/home/astorec/Documents/Repos/2024-Hons-Project/Pages/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZmlsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/astorec/Documents/Repos/2024-Hons-Project/Pages/Settings.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2V0dGluZ3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/astorec/Documents/Repos/2024-Hons-Project/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/astorec/Documents/Projects/2024-Hons-Project/Shared/NavMenu.razor]
+[/home/astorec/Documents/Repos/2024-Hons-Project/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/astorec/Documents/Projects/2024-Hons-Project/_Imports.razor]
+[/home/astorec/Documents/Repos/2024-Hons-Project/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
